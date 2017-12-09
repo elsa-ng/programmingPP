@@ -15,7 +15,7 @@ If [Microsoft Visual Studio 2017 Community](https://www.visualstudio.com/) is yo
 * Click ok at the bottom and re-run your code using `CTRL+F5`
 
 ### std_lib_facilities.h
-This header file is created by [Stroustrup] to simplify the use of C++ standard library and to complement the drills and exercises used in his book, Programming Principles and Practice Using C++. If you choose not to use this custom library, you will have to `#include` the following libraries as necessary:
+This header file is created by Stroustrup to simplify the use of C++ standard library and to complement the drills and exercises used in his book, Programming Principles and Practice Using C++. If you choose not to use this custom library, you will have to `#include` the following libraries as necessary:
 * `#include <iostream>`
 * `#include <string>`
 * `#include <vector>`
