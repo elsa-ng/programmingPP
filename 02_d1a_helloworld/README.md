@@ -18,6 +18,7 @@ The purpose of a drill is to establish or reinfore practical programming skills 
 3. In the .cpp file, input one of the following code:
     ```C++
     #include "std_lib_facilities.h"
+    
     int main() {
       cout << "Hello, World!\n";
       keep_window_open();
@@ -30,23 +31,22 @@ The purpose of a drill is to establish or reinfore practical programming skills 
 
 ## Review
 1. What is the purpose of the "Hello, World!" program?
-    ```
-    The purpose of the "Hello, World!" program is to get programmers acquainted with the  basic tools of programming through building a trivial program. The basic tools can then be used to tackle complicated programs. 
-    ```
+   The purpose of the "Hello, World!" program is to get programmers acquainted with the  basic tools of programming through building a trivial program. The basic tools can then be used to tackle complicated programs. 
+   
 2. Name the four parts of a function.
-    ```
-    Every function has 4 parts:
+   Every function has 4 parts:
     * a return type
     * a name
     * a parameter list
     * a function body
-    Example:
-    ```
-    ```C++
+   Example:
+   ```C++
     int main() {
         return 0;
     }
     ```
+   The return type for the above function is `int` meaning integer with a name `main`. This `main()` has an empty parameter list and a function body containing the code `return 0;`.
+   
 3. Name a function that must appear in every C++ program.
 4. In the "Hello, World!" program, what is the purpose of the line `return 0;`?
 5. What is the purpose of the compiler?
