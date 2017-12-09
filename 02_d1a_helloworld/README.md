@@ -16,14 +16,43 @@ The purpose of a drill is to establish or reinfore practical programming skills 
 1. Set up an Empty Project in [Microsofot Visual Studio](https://www.visualstudio.com/)
 2. Create a .cpp file and name it `hello_world.cpp`
 3. In the .cpp file, input one of the following code:
-```C++
-#include "std_lib_facilities.h"
-int main() {
-  cout << "Hello, World!\n";
-  keep_window_open();
-  return 0;
-}
-```
+    ```C++
+    #include "std_lib_facilities.h"
+    int main() {
+      cout << "Hello, World!\n";
+      keep_window_open();
+      return 0;
+    }
+    ```
 4. Try using a standard C++ library instead of the custom library and modify the code to use the standard library
 5. Fix errors, if any
 6. Create errors and see how the compiler reacts
+
+## Review
+1. What is the purpose of the "Hello, World!" program?
+    ```
+    The purpose of the "Hello, World!" program is to get programmers acquainted with the  basic tools of programming through building a trivial program. The basic tools can then be used to tackle complicated programs. 
+    ```
+2. Name the four parts of a function.
+    ```
+    Every function has 4 parts:
+    * a return type
+    * a name
+    * a parameter list
+    * a function body
+    Example:
+    ```
+    ```C++
+    int main() {
+        return 0;
+    }
+    ```
+3. Name a function that must appear in every C++ program.
+4. In the "Hello, World!" program, what is the purpose of the line `return 0;`?
+5. What is the purpose of the compiler?
+6. What is the purpose of the `#include` directive?
+7. What does a `.h` suffix at the end of a file name signify in C++?
+8. What does the linker do for your program?
+9. What is the difference between a source file and an object file?
+10. What is an IDE and what does it do for you?
+11. If you understand everything in the textbook, why is it necessary to practice?
