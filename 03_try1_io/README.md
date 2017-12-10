@@ -33,8 +33,8 @@
 5. Read the input and store it into a variable of type `int`
 6. Output the results of the same operations and note the differences  
 
-#### Side Note: 
-Square root function is not defined for variable of type `int`, so do remainder/modulous instead.
+**Side Note:**
+Square root function is not defined for variable of type `int`, so do remainder/modulous instead. Similarly, the remainder/modulous function is not defined for variable of type `double`. 
 
 
 
